@@ -2,9 +2,10 @@
 import pandas as pd
 from pathlib import Path
 
+
 def load_csv_file(file_path):
     """
-    Load a single CSV file into a pandas DataFrame.
+    Load a single stock CSV file into a pandas DataFrame.
     Detects date column dynamically and validates required columns.
     """
     file_path = Path(file_path)
